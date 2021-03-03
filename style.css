@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+}
+.grid {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  
+}
+.grid div {
+  width: 10%;
+  height: 10%;
+  border: 1px solid rgba(194, 194, 194, 0.377);
+}
+
+.tv-guide,
+.box-office,
+.services,
+.interactive {
+  background-color: #272727;
+  color: white;
+}
+
+div {
+  color: rgba(255, 255, 255, 0.267);
+}
